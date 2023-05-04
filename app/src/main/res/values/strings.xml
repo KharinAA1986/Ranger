@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Ranger</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="nav_menu_item1">Play</string>
+    <string name="nav_menu_item2">Draw</string>
+    <string name="nav_menu_item3">Results</string>
 </resources>
