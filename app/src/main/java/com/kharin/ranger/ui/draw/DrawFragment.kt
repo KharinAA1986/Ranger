@@ -7,11 +7,12 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.kharin.ranger.databinding.FragmentDashboardBinding
+import com.kharin.ranger.databinding.FragmentDrawBinding
+
 
 class DrawFragment : Fragment() {
 
-    private var _binding: FragmentDashboardBinding? = null
+    private var _binding: FragmentDrawBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -25,7 +26,7 @@ class DrawFragment : Fragment() {
         val drawViewModel =
             ViewModelProvider(this).get(DrawViewModel::class.java)
 
-        _binding = FragmentDashboardBinding.inflate(inflater, container, false)
+        _binding = FragmentDrawBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         val textView: TextView = binding.textDashboard

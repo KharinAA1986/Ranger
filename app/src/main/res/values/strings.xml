@@ -3,4 +3,8 @@
     <string name="nav_menu_item1">Play</string>
     <string name="nav_menu_item2">Draw</string>
     <string name="nav_menu_item3">Results</string>
+    <string name="btn_raise_text">Raise</string>
+    <string name="btn_call_text">Call</string>
+    <string name="btn_fold_text">Fold</string>
+    <string name="_dummy_">_</string>
 </resources>
